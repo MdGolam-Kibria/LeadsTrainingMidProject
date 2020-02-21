@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".UserDetails">
+
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_photo_camera_black_24dp" />
+
+    <EditText
+        android:id="@+id/NameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editextesign"
+        android:backgroundTint="#92000000"
+        android:textColorHint="#2DC931"
+        android:hint="Name"
+        android:paddingLeft="10dp"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/EmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editextesign"
+        android:textColorHint="#2DC931"
+        android:backgroundTint="#92000000"
+        android:gravity="center"
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:ignore="RtlCompat" />
+
+
+    <EditText
+        android:id="@+id/AdressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editextesign"
+        android:backgroundTint="#92000000"
+        android:textColorHint="#2DC931"
+        android:gravity="center"
+        android:hint="Address"
+        android:paddingLeft="10dp"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:ignore="RtlCompat"
+
+        />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editextesign"
+        android:backgroundTint="#92000000"
+        android:gravity="center"
+        android:textColorHint="#2DC931"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:paddingLeft="10dp"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:ignore="RtlCompat"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/cameradesign"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:textColor="#2DC931"
+            android:text="Save Data"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+
+        <Button
+            android:id="@+id/showBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/cameradesign"
+            android:paddingLeft="25dp"
+            android:paddingRight="10dp"
+            android:text="show Data"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#2DC931" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

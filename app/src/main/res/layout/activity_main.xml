@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+     android:layout_height="match_parent"
+    android:background="@drawable/backimage"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="90dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bitm" />
+
+    <EditText
+        android:id="@+id/uName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editextesign"
+        android:backgroundTint="#92000000"
+        android:gravity="start"
+        android:hint="Enter User Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="12dp"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColorHint="#2DC931" />
+
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editextesign"
+        android:backgroundTint="#92000000"
+        android:gravity="start"
+        android:hint="Enter User Password"
+        android:inputType="numberPassword"
+        android:paddingLeft="12dp"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColorHint="#2DC931" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/saveButtonid"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/cameradesign"
+            android:text="Save"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#2DC931" />
+
+        <Button
+            android:id="@+id/loadButtonid"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/cameradesign"
+            android:text="Load"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#2DC931" />
+
+        <Button
+            android:id="@+id/loginButtonid"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cameradesign"
+            android:text="Log in"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#2DC931" />
+    </LinearLayout>
+
+
+</LinearLayout>
